@@ -86,3 +86,13 @@ pub fn run() {
 
     println!("Total distance between the lists in Day 01: {}", total_distance);
 }
+
+#[cfg(test)]
+mod day_01_tests {
+    use super::*;
+
+    #[test]
+    fn test_day_01() {
+        run();
+    }
+}

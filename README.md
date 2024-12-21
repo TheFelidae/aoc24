@@ -9,13 +9,13 @@ To run the solutions, you will need to have Rust installed. You can install Rust
 Once you have Rust installed, you can run the solutions by running the following command:
 
 ```sh
-cargo run --bin <day>
+cargo test
 ```
 
-Where `<day>` is the day of the puzzle you want to run. For example, to run the solution for day 1, you would run the following command:
+This will run all of the tests for the solutions. You can also run the solutions for a specific day by running the following command:
 
 ```sh
-cargo run --bin day1
+cargo test day_01
 ```
 
 ### Nix
@@ -25,4 +25,8 @@ You can use the flake by running the following command:
 
 ```sh
 nix develop
+```
+
+## License
+These solutions are licensed under the Unlicense. See the [LICENSE](LICENSE) file for more information.
 ```

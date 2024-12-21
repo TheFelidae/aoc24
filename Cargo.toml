@@ -1,0 +1,9 @@
+[package]
+name = "aoc_24"
+description = "Advent of Code 2024"
+authors = ["TheFelidae <https://github.com/TheFelidae>"]
+license = "Unlicense"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

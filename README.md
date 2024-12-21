@@ -28,5 +28,5 @@ nix develop
 ```
 
 ## License
+
 These solutions are licensed under the Unlicense. See the [LICENSE](LICENSE) file for more information.
-```

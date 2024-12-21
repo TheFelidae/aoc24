@@ -2,6 +2,16 @@
 
 These is a repo for my solutions to the Advent of Code 2024 puzzles. I will be using [Rust](https://www.rust-lang.org/) for all of my solutions.
 
+## Progress
+
+|Mon|Tue|Wed|Thu|Fri|Sat|Sun|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| | | | | | |1✅|
+|2|3|4|5|6|7|8|
+|9|10|11|12|13|14|15|
+|16|17|18|19|20|21|22|
+|23|24|25| | | | |
+
 ## Running the solutions
 
 To run the solutions, you will need to have Rust installed. You can install Rust by following the instructions [here](https://www.rust-lang.org/tools/install).

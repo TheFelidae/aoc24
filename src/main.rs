@@ -1,17 +1,16 @@
+pub mod days;
+
 fn main() {
-    // Run the `cargo test` command using Rust - I prefer using tests for this, and reserving src
-    // for the actual code
-    println!("Running tests...");
+    println!("Running challenges...");
 
-    let cmd = std::process::Command::new("cargo")
-        .arg("test")
-        .status()
-        .expect("Failed to run tests");
+    let list = vec![
+        days::day_01::run
+    ];
 
-    if !cmd.success() {
-        println!("Tests failed");
-        std::process::exit(1);
+    let mut challenge_number = 1;
+    for challenge in list {
+        println!("Running challenge for Day {}...", challenge_number);
+        challenge();
+        challenge_number += 1;
     }
-
-    println!("Tests passed");
 }
